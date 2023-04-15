@@ -1,0 +1,13 @@
+.li{
+    height: 1rem;
+    font-size: 3.75em;
+
+}
+body{
+    color: antiquewhite;
+    
+}
+.header, a{
+    color: rgb(40, 190, 216);
+}
+

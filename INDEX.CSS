@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+ 
+body{
+font-family: 'Roboto Condensed', sans-serif;
+background-image: url(techno3.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.table{
+    border-collapse: collapse;
+    margin-left: auto;
+    width: 64%;
+    
+}
+
+td, th{
+    border: 15px solid rgb(180, 218, 223);
+    text-align: left;
+    padding: 9px;
+    
+}
+
+tr{
+    color: #fff;
+}
+
+    
+thead,th{
+    font-size: larger;
+    color: #7562bd;
+}
+
+.one:hover{
+    
+}
+
+.rows:hover{
+    color: #fff;
+}
+
+tr,td,a{
+    text-decoration: none;
+    font-size: larger;
+}
+td,a{
+    color: aliceblue;
+}
+
+h1,nav{
+    text-decoration: none;
+
+    
+}
+
+.icons,img{
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background: ;
+    
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .icons{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.wrapper .icons img{
+    position: relative;
+    height: 190px;
+    width: 190px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    z-index: 2;
+}
+.wrapper .icons .tooltip{
+    position: absolute;
+    top: 70px;
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.wrapper .icons:hover .tooltip{
+opacity: 1;
+pointer-events: auto;
+
+}
+.wrapper .icons .tooltip::before{
+    background: #fff;
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    bottom: -8px;
+    left: 50%;
+    transform: translatex(-50%)rotate(45deg);
+    
+}
+h2{
+    color: #fff;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    
+}
+
+.Contacts, h2{
+    text-align: left;
+}
+
+.nav, a{
+    text-align: center;
+    
+}
